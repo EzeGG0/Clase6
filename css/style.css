@@ -76,9 +76,6 @@
   background-size: cover;
 }
 
-<<<<<<< HEAD
-.nav__option {
-=======
 .productosDestacados,
 .productosDestacados:visited {
   color: black;
@@ -86,7 +83,6 @@
 
 a,
 a:visited {
->>>>>>> css
   text-decoration: none;
   color: white;
 }
