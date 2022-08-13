@@ -1,6 +1,5 @@
 .heroSection {
-  background-image: url(/DH/claseFrontEnd6/img/fondo.png);
-  height: 400px;
+  background-color: #f0a83e;
 }
 
 .header {
@@ -10,7 +9,9 @@
 .derechos {
   text-justify: center;
 }
-
+button {
+  margin-bottom: 20px;
+}
 h1 {
   display: inline;
   margin: 0;
