@@ -38,7 +38,7 @@
   align-items: center;
   height: 60px;
 }
-.header img {
+.header__img {
   position: sticky;
   left: 40px;
   height: 25px;
@@ -74,6 +74,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.productosDestacados,
+.productosDestacados:visited {
+  color: black;
 }
 
 a,
