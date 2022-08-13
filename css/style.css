@@ -1,0 +1,17 @@
+.heroSection {
+  background-image: url(/DH/claseFrontEnd6/img/fondo.png);
+  height: 400px;
+}
+
+.header {
+  background-color: #f0a83e;
+}
+
+.derechos {
+  text-justify: center;
+}
+
+h1 {
+  display: inline;
+  margin: 0;
+}
