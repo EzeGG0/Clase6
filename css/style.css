@@ -30,19 +30,28 @@
 }
 /* topBar Terminada */
 
-/** heroSection */
-.heroSection {
-  /* height: 450px; */
-  background-image: url(/img/fondo.png);
-  width: 100%;
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .header {
   background-color: #f0a83e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.header img {
+  position: sticky;
+  left: 40px;
+  height: 25px;
+}
+.navOption {
+  margin: 0.4rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.last {
+  padding-right: 3rem;
 }
 
 .btn {
@@ -56,13 +65,23 @@
 .navOption {
   list-style: none;
 }
+/** heroSection */
+.heroSection {
+  /* height: 450px; */
+  background-image: url(/img/fondo.png);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 a,
 a:visited {
   text-decoration: none;
   color: white;
 }
-
+/* Section derechos */
 .derechos {
   background-color: #222222;
   text-align: center;
