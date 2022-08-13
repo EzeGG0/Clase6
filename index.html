@@ -8,82 +8,98 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
+    <div class="topBar">
       <p>Grandes comedores</p>
-      <select name="Idioma">
-        <option value="value1" selected>Español</option>
-        <option value="value2">Ingles</option>
-        <option value="value3">Aleman</option>
-      </select>
-      <select name="Moneda">
-        <option value="value1" selected>Ars</option>
-        <option value="value2">USD</option>
-        <option value="value3">EUR</option>
-      </select>
+      <div class="topBar__options">
+        <select name="Idioma">
+          <option value="value1" selected>Español</option>
+          <option value="value2">Ingles</option>
+          <option value="value3">Aleman</option>
+        </select>
+        <select name="Moneda">
+          <option value="value1" selected>Ars</option>
+          <option value="value2">USD</option>
+          <option value="value3">EUR</option>
+        </select>
+      </div>
     </div>
     <header class="header">
-      <img src="./img/Logo.png" alt="Logo" />
-      <nav>
-        <ul>
-          <li class = "nav__option"><a href="#">Categorias</a></li>
-          <li class = "nav__option"><a href="#">Pets</a></li>
-          <li class = "nav__option"><a href="#">Nosotros</a></li>
-          <li class = "nav__option"><a href="#">Contactanos</a></li>
-        </ul>
+      <a href="https://ezegg0.github.io/Clase6/" class="header__img"
+        ><img src="./img/Logo.png" alt="Logo"
+      /></a>
+      <nav class="nabBar">
+        <a href="#" class="navOption">Categorias</a>
+        <a href="#" class="navOption">Pets</a>
+        <a href="#" class="navOption">Nosotros</a>
+        <a href="#" class="navOption last">Contactanos</a>
       </nav>
     </header>
     <div class="heroSection">
-      <h1>¡Es un placer tenerte aquí!</h1>
+      <h1 class="title">¡Es un placer tenerte aquí!</h1>
       <p>¡Comederos en descuento!</p>
-      <button>Comederos</button>
+      <button class="heroSection__btn">Comederos</button>
     </div>
     <section class="continer__productos">
       <img src="./img/pawprint 1.png" alt="huella" />
       <h2>Productos Destacados</h2>
       <p>
-        <a href="#">Comederos</a> - <a href="#">Accesorios</a> -
-        <a href="#">Comida</a>
+        <a href="#" class="productosDestacados">Comederos</a> -
+        <a href="#" class="productosDestacados">Accesorios</a> -
+        <a href="#" class="productosDestacados">Comida</a>
       </p>
-      <article class="producto">
-        <img src="./img/churrasquito.png" alt="churrasquito" />
-        <p>Jueguete churrasquito</p>
-        <p>$150</p>
-      </article>
-      <article class="producto">
-        <img src="./img/comedero.png" alt="comedero" />
-        <p>Comedero para perro</p>
-        <p>$250</p>
-      </article>
-      <article class="producto">
-        <img src="./img/Huesito.png" alt="Huesito" />
-        <p>Juguete Huesito</p>
-        <p>$650</p>
-      </article>
+      <div class="wrapper__productos">
+        <article class="producto">
+          <img src="./img/churrasquito.png" alt="churrasquito" />
+          <p>Jueguete churrasquito</p>
+          <p>$150</p>
+        </article>
+        <article class="producto">
+          <img src="./img/comedero.png" alt="comedero" />
+          <p>Comedero para perro</p>
+          <p>$250</p>
+        </article>
+        <article class="producto">
+          <img src="./img/Huesito.png" alt="Huesito" />
+          <p>Juguete Huesito</p>
+          <p>$650</p>
+        </article>
+      </div>
     </section>
     <section class="contacto">
       <h2>Contactanos</h2>
-      <input type="text" placeholder="Nombre" />
-      <input type="email" placeholder="Email" />
-      <input type="tel" placeholder="Telefono" />
+      <form action="" class="contact">
+        <input type="text" placeholder="Nombre" />
+        <input type="email" placeholder="Email" />
+        <input type="tel" placeholder="Telefono" />
+        <input type="submit" value="Enviar" />
+      </form>
     </section>
-    <div>
+    <div class="suscribe">
       <p>Suscríbete para más novedades</p>
-      <input type="email" placeholder="Ingresa tu correo"">
-      <input type="submit" value="Suscribirme" />
+      <form action="" class="novedades">
+        <input type="email" placeholder="Ingresa tu correo"">
+        <input type="submit" value="Suscribirme" />
+      </form>
     </div>
-    <footer>
-      <img src="./img/ubicacion.png" alt="ubicacion" />
-      <h2>Localidad</h2>
-      <p>Calle - provincia</p>
-      <img src="./img/tel.png" alt="Telefono" />
-      <h2>Telefono</h2>
-      <p>Número de teléfono</p>
-      <img src="./img/msj.png" alt="msj" />
-      <h2>Correo Electrónico</h2>
-      <p>Dirección de correo</p>
-      <div class="derechos">
-        <p>Todos los derechos reservados Front End</p>
-      </div>
+    <section class="contact">
+      <article class="concact__info">
+        <img src="./img/ubicacion.png" alt="ubicacion" />
+        <h2>Localidad</h2>
+        <p>Calle - provincia</p>
+      </article>
+      <article class="concact__info">
+        <img src="./img/tel.png" alt="Telefono" />
+        <h2>Telefono</h2>
+        <p>Número de teléfono</p>
+      </article>
+      <article class="conct__info">
+        <img src="./img/msj.png" alt="msj" />
+        <h2>Correo Electrónico</h2>
+        <p>Dirección de correo</p>
+      </article>
+    </section>
+    <footer class="derechos">
+      <p>Todos los derechos reservados Front End (Equipo 3)</p>
     </footer>
   </body>
 </html>
