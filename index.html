@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
@@ -35,8 +42,8 @@
       </nav>
     </header>
     <div class="heroSection">
-      <h1 class="title">¡Es un placer tenerte aquí!</h1>
-      <p>¡Comederos en descuento!</p>
+      <h1 class="heroSection__title">¡Es un placer tenerte aquí!</h1>
+      <p class="heroSection__paragraph">¡Comederos en descuento!</p>
       <button class="heroSection__btn">Comederos</button>
     </div>
     <section class="continer__productos">
@@ -67,7 +74,7 @@
     </section>
     <section class="contacto">
       <h2>Contactanos</h2>
-      <form action="" class="contact">
+      <form action="" class="contact__form">
         <input type="text" placeholder="Nombre" />
         <input type="email" placeholder="Email" />
         <input type="tel" placeholder="Telefono" />
@@ -84,18 +91,35 @@
     <section class="contact">
       <article class="concact__info">
         <img src="./img/ubicacion.png" alt="ubicacion" />
-        <h2>Localidad</h2>
-        <p>Calle - provincia</p>
+        <div
+          class="contact__info__wrapper contact__info__wrapper__localidad--position"
+        >
+          <h2 class="contact__info__h2">Localidad</h2>
+          <p class="contact__info__paragraph">Calle - provincia</p>
+        </div>
       </article>
       <article class="concact__info">
         <img src="./img/tel.png" alt="Telefono" />
-        <h2>Telefono</h2>
-        <p>Número de teléfono</p>
+        <div
+          class="contact__info__wrapper contact__info__wrapper__telefono--position"
+        >
+          <h2 class="contact__info__h2">Telefono</h2>
+          <p class="contact__info__paragraph">Número de teléfono</p>
+        </div>
       </article>
       <article class="conct__info">
         <img src="./img/msj.png" alt="msj" />
-        <h2>Correo Electrónico</h2>
-        <p>Dirección de correo</p>
+        <div
+          class="contact__info__wrapper contact__info__wrapper__email--position"
+        >
+          <h2 class="contact__info__h2">Correo Electrónico</h2>
+          <p class="contact__info__paragraph">Dirección de correo</p>
+        </div>
+        <img
+          src="./img/Logo2.png"
+          alt="Logo"
+          class="contact__logo contact__logo--position"
+        />
       </article>
     </section>
     <footer class="derechos">
